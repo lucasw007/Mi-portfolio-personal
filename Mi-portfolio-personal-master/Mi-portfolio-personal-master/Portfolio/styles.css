@@ -7,60 +7,79 @@
   font-style: normal;
 }
 
-
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+html{
+  scroll-behavior: smooth;
+} 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
 }
 
-body{
-    background-color: rgb(13, 13, 88);
+body {
+  background-color: rgb(13, 13, 88);
+  background: #69d4ff;
+background: -webkit-linear-gradient(179deg, rgba(105, 212, 255, 1) 0%, rgba(255, 255, 255, 1) 100%);
+background: -moz-linear-gradient(179deg, rgba(105, 212, 255, 1) 0%, rgba(255, 255, 255, 1) 100%);
+background: linear-gradient(179deg, rgba(105, 212, 255, 1) 0%, rgba(255, 255, 255, 1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#69D4FF", endColorstr="#FFFFFF", GradientType=0);
 }
+
 header {
   position: fixed;
   width: 100%;
 }
 
-.navbar-nav{
-    margin: 0 auto;
-    align-items: center;
+.navbar-nav {
+  margin: 0 auto;
+  align-items: center;
 }
 
-.presentation-box{
-  height: 80vh;
+.presentation-box {
+  height: 115vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #010d91;
-background: -webkit-linear-gradient(180deg, rgba(1, 13, 145, 1) 31%, rgba(255, 255, 255, 1) 100%);
-background: -moz-linear-gradient(180deg, rgba(1, 13, 145, 1) 31%, rgba(255, 255, 255, 1) 100%);
-background: linear-gradient(180deg, rgba(1, 13, 145, 1) 31%, rgba(255, 255, 255, 1) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#010D91", endColorstr="#FFFFFF", GradientType=0);
 }
 
-.content-p-box img{
+.content-p-box img {
   width: 250px;
   height: 250px;
   border-radius: 200px;
   margin: 10px;
-  box-shadow: 0px 0px 19px 3px rgba(0,0,0,1);
--webkit-box-shadow: 0px 0px 19px 3px rgba(0,0,0,1);
--moz-box-shadow: 0px 0px 19px 3px rgba(0,0,0,1);
+  box-shadow: 0px 0px 19px 3px rgba(0, 0, 0, 1);
+  -webkit-box-shadow: 0px 0px 19px 3px rgba(0, 0, 0, 1);
+  -moz-box-shadow: 0px 0px 19px 3px rgba(0, 0, 0, 1);
 }
 
-.content-p-box h2{
+.content-p-box h2 {
   text-align: center;
   margin-top: 20px;
   font-size: 30px;
 }
 
-.content-p-box p{
+.content-p-box p {
   text-align: center;
   font-size: 15px;
 }
 
-.content-a-box h3{
-  height: 5vh;
+.content-a-box h3 {
+  height: 10vh;
+
+}
+
+.content-a-box {
+  height: 40vh;
+}
+
+.education-box {
+  height: 40vh;
+  
+}
+
+.content-e-box h3 {
+  height: 10vh;
+  text-align: right;
   
 }
